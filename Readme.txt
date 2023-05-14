@@ -1,8 +1,11 @@
-Request example:
+Asunciones hechas:
+    ProductId, BrandId y PricesList son enteros.
+    Que el PRICE-LIST para un PRODUCT en una BRAND es único.
 
+Request example:
 localhost:8080/product-price
 {
-    "productId": "123",
+    "productId": 123,
     "brandId": 1,
     "date": "2020-06-14-00.00.00"
 }
