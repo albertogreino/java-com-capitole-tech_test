@@ -2,16 +2,24 @@ Asunciones hechas:
     ProductId, BrandId y PricesList son enteros.
     Que el PRICE-LIST para un PRODUCT en una BRAND es único.
 
+Para hacer pruebas con PostMan es útil copiar el archivo src/test/resources/test-data/data.sql a src/main/resources/data.sql para poblar la base de datos
+
 Request example:
 localhost:8080/product-price
 {
-    "productId": 123,
+    "productId": 35455,
     "brandId": 1,
     "date": "2020-06-14-00.00.00"
 }
-	
+
+=======
+
+TODO:
+Añadir validación de campos de entrada.
+Añadir gestión de errores personalizada.
 	
 ***************************************
+PRUEBA TÉCNICA
 ***************************************
 	
 
